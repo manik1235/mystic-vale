@@ -27,6 +27,7 @@ phases:
   pre_build:
     commands:
       - echo Project Setup
+      - cd source
       - npm install
   build:
     commands:
